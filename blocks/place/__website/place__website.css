@@ -1,3 +1,10 @@
 .place__website {
 	place-self: end start;
 }
+
+@media screen and (max-width: 768px) {
+	
+	.place__website {
+		padding: 0 16px;
+	}
+}

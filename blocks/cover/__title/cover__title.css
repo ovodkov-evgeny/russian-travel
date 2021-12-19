@@ -8,3 +8,13 @@
 	font-size: 72px;
 	line-height: 76px;
 }
+
+@media screen and (max-width: 768px) {
+	
+	.cover__title {
+		font-size: 32px;
+		line-height: 35px;
+		margin-bottom: 16px;
+		white-space: pre-line;
+	}
+}

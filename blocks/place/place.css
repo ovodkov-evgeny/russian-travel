@@ -8,3 +8,38 @@
 .place:not(:last-child) {
 	margin-bottom: 80px;
 }
+
+@media screen and (max-width: 1280px) {
+	
+	.place {
+		gap: 48px 32px;
+		grid-template-columns: fit-content(440px) 1fr;
+		grid-template-rows: min-content 1fr;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	
+	.place {
+		gap: 48px 28px;
+		grid-template-columns: fit-content(340px) 1fr;
+		grid-template-rows: min-content 1fr;
+	}
+
+	.place:not(:last-child) {
+		margin-bottom: 73px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.place {
+		row-gap: 32px;
+		grid-template-columns: minmax(320px, 1fr);
+		grid-template-rows: min-content;
+	}
+
+	.place:not(:last-child) {
+		margin-bottom: 50px;
+	}
+}
