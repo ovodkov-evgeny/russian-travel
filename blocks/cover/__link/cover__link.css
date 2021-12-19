@@ -1,0 +1,14 @@
+.cover__link {
+	display: block;
+	width: 100%;
+	padding-bottom: 20.6%;
+	padding-top: 20.6%;
+	text-decoration: none;
+	color: #fff;
+	background: rgba(42, 44, 47, .3);
+	transition: background .3s;
+}
+
+.cover__link:hover {
+	background: rgba(42, 44, 47, .8);
+}
