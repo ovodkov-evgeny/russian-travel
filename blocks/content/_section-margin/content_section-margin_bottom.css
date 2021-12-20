@@ -2,14 +2,14 @@
 	margin-bottom: 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
 	
 	.content_section-margin_bottom{
 		margin-bottom: 88px;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	
 	.content_section-margin_bottom{
 		margin-bottom: 64px;

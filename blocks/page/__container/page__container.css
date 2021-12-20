@@ -1,4 +1,5 @@
 .page__container {
+  min-width: 320px;
   max-width: 1280px;
   margin: 0 auto;
   padding-top: 28px;
@@ -6,7 +7,7 @@
 	box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	
 	.page__container {
     padding-top: 16px;
