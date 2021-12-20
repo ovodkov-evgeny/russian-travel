@@ -1,17 +1,17 @@
-.content_margin_bottom {
+.content__section-margin {
 	margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1023px) {
 	
-	.content_margin_bottom{
+	.content__section-margin {
 		margin-bottom: 88px;
 	}
 }
 
 @media screen and (max-width: 767px) {
 	
-	.content_margin_bottom{
+	.content__section-margin {
 		margin-bottom: 64px;
 	}
 }
