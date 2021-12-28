@@ -2,6 +2,14 @@
 	margin: 0;
 	margin-bottom: 33px;
 	padding: 0;
+	max-width: 690px;
 	font-size: 16px;
 	line-height: 26px;
+}
+
+@media screen and (max-width: 1023px) {
+
+	.intro__text {
+		max-width: 100%;
+	}
 }

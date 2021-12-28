@@ -14,7 +14,6 @@
 	.place {
 		gap: 48px 32px;
 		grid-template-columns: fit-content(440px) 1fr;
-		grid-template-rows: min-content 1fr;
 	}
 }
 
@@ -23,7 +22,6 @@
 	.place {
 		gap: 48px 28px;
 		grid-template-columns: fit-content(340px) 1fr;
-		grid-template-rows: min-content 1fr;
 	}
 
 	.place:not(:last-child) {

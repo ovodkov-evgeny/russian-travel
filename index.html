@@ -13,7 +13,7 @@
 			<img src="./images/header-logo.svg" alt="Логотип карта России" class="header__logo">
 			<ul class="header__links">
 				<li class="header__link-item">
-					<a href="#" class="header__lang-link link">Ru</a>
+					<a href="#" class="header__lang-link header__lang-link_active link">Ru</a>
 				</li>
 				<li class="header__link-item">
 					<a href="#" class="header__lang-link link">En</a>
@@ -21,41 +21,69 @@
 			</ul>
 		</header>
 		<main class="content">
-			<section class="lead content__section-margin">
+			<section class="lead section-margin-bottom">
 				<h1 class="lead__title">Путешествия по России</h1>
 				<p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-				<img src="./images/lead-polka.jpg" alt="Фото полки в поезде с видом из окна" class="lead__image">
-				<p class="lead__caption">ваша полка — верхняя</p>
+				<figure class="lead__figure">
+					<img src="./images/lead-polka.jpg" alt="Фото полки в поезде с видом из окна" class="lead__image">
+					<figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+				</figure>
 			</section>
 
-			<section class="intro content__section-margin">
+			<section class="intro section-margin-bottom">
 				<h3 class="intro__title">Чего мы там не видели?</h3>
 				<p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
 				<ul class="intro__list">
-					<li class="intro__list-item">Часовых поясов 11</li>
-					<li class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-					<li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-					<li class="intro__list-item">Природных заповедников 105</li>
-					<li class="intro__list-item">Аэропортов 241</li>
+					<li class="intro__list-item">Часовых поясов <span class="intro__numeral-item">11</span></li>
+					<li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__numeral-item">12</span></li>
+					<li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__numeral-item">16</span></li>
+					<li class="intro__list-item">Природных заповедников <span class="intro__numeral-item">105</span></li>
+					<li class="intro__list-item">Аэропортов <span class="intro__numeral-item">241</span></li>
 				</ul>
 			</section>
 
-			<section class="photo-grid content__section-margin">
-				<img src="./images/photo-grid-train.jpg" alt="Вид из окна поезда" class="photo-grid-item">
-				<img src="./images/photo-grid-atharva-tulsi.jpg" alt="Снежные горы в облаках" class="photo-grid-item">
-				<img src="./images/photo-grid-tuman.jpg" alt="Пейзаж туманного утра на лугу" class="photo-grid-item">
-				<img src="./images/photo-grid-sochi.jpg" alt="Лес в тумане" class="photo-grid-item">
-				<img src="./images/photo-grid-arisa.jpg" alt="Прозрачный лед Байкала" class="photo-grid-item">
-				<img src="./images/photo-grid-baikal.jpg" alt="Берег озера Байкал" class="photo-grid-item">
-				<img src="./images/photo-grid-elbrus.jpg" alt="Гора Эльбрус" class="photo-grid-item">
-				<img src="./images/photo-grid-kondratiev.jpg" alt="Знак пешеходного перехода" class="photo-grid-item">
-				<img src="./images/photo-grid-kamchatka-1.jpg" alt="Горы Камчатки" class="photo-grid-item">
-				<img src="./images/photo-grid-kamchatka-2.jpg" alt="Луг на фоне горы Камчатки" class="photo-grid-item">
-				<img src="./images/photo-grid-baikal-2.jpg" alt="Горная береговая линия озера Байкал" class="photo-grid-item">
-				<img src="./images/photo-grid-ergaki.jpg" alt="Природный парк Ергаки" class="photo-grid-item">
+			<section class="photo-grid section-margin-bottom">
+				<ul class="photo-grid__list">
+					<li class="photo-grid__list-item">
+						<img src="./images/photo-grid-train.jpg" alt="Вид из окна поезда" class="photo-grid-item">
+					</li>
+					<li class="photo-grid__list-item">
+						<img src="./images/photo-grid-atharva-tulsi.jpg" alt="Снежные горы в облаках" class="photo-grid-item">
+					</li>
+					<li class="photo-grid__list-item">
+						<img src="./images/photo-grid-tuman.jpg" alt="Пейзаж туманного утра на лугу" class="photo-grid-item">
+					</li>
+					<li class="photo-grid__list-item">
+						<img src="./images/photo-grid-sochi.jpg" alt="Лес в тумане" class="photo-grid-item">
+					</li>
+					<li class="photo-grid__list-item">
+						<img src="./images/photo-grid-arisa.jpg" alt="Прозрачный лед Байкала" class="photo-grid-item">
+					</li>
+					<li class="photo-grid__list-item">
+						<img src="./images/photo-grid-baikal.jpg" alt="Берег озера Байкал" class="photo-grid-item">
+					</li>
+					<li class="photo-grid__list-item">
+						<img src="./images/photo-grid-elbrus.jpg" alt="Гора Эльбрус" class="photo-grid-item">
+					</li>
+					<li class="photo-grid__list-item">
+						<img src="./images/photo-grid-kondratiev.jpg" alt="Знак пешеходного перехода" class="photo-grid-item">
+					</li>
+					<li class="photo-grid__list-item">
+						<img src="./images/photo-grid-kamchatka-1.jpg" alt="Горы Камчатки" class="photo-grid-item">
+					</li>
+					<li class="photo-grid__list-item">
+						<img src="./images/photo-grid-kamchatka-2.jpg" alt="Луг на фоне горы Камчатки" class="photo-grid-item">
+					</li>
+					<li class="photo-grid__list-item">
+						<img src="./images/photo-grid-baikal-2.jpg" alt="Горная береговая линия озера Байкал" class="photo-grid-item">
+					</li>
+					<li class="photo-grid__list-item">
+						<img src="./images/photo-grid-ergaki.jpg" alt="Природный парк Ергаки" class="photo-grid-item">
+					</li>
+				</ul>
 			</section>
 
-			<section class="places content__section-margin">
+			<section class="places section-margin-bottom">
 				<article class="place">
 					<h2 class="place__title">Куршская
 						коса</h2>
@@ -118,7 +146,7 @@
 				</article>
 			</section>
 
-			<section class="cover content__section-margin">
+			<section class="cover section-margin-bottom">
 				<a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="blank">
 					<h2 class="cover__title">До Байкала 
 						«на собаках»</h2>
